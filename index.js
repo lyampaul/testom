@@ -9,5 +9,5 @@ await page.setViewport({ width: 1280, height: 720 });
 await page.goto(`https://tinyurl.com/andrewlyam`);
 console.log(`Taking screenshot`)
 await page.screenshot({ path:`./latest.png`, fullPage: true });
-setTimeout(() => process.exit(), 120000)
+setTimeout(() => process.exit(), 3600000)
 })();
