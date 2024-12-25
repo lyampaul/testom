@@ -10,5 +10,5 @@ await page.setViewport({ width: 1280, height: 720 });
 await page.goto(`https://nicekid.pages.dev/`)
 console.log(`Taking screenshot`)
 await page.screenshot({ path:`./latest.png`, fullPage: true });
-setTimeout(() => process.exit(), 100000)
+setTimeout(() => process.exit(), 1200000)
 })();
